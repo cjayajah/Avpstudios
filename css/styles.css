@@ -62,22 +62,15 @@ hr {
 
 /*carosel*/
 .c-icon{
-  padding: 1rem;
+padding: 1rem;
 background-color:  rgba(0, 0, 0, 0.5);
 border-radius:100%;
 }
 .picture-slides {
   padding-bottom: 1rem;
 }
-.caroosel-btn{
-  background-color:  rgba(0, 0, 0, 0.7);
-  color: #FFF;
-}
 .card {
   margin: 5%;
-  -backdrop-filter: blur(25px) saturate(157%);
-  -webkit-backdrop-filter: blur(25px) saturate(157%);
-  background-color: rgba(120, 149, 125, 0.19);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -87,7 +80,7 @@ border-radius:100%;
 }
 
 .carousel-item {
-  opacity: 0.9;
+  opacity: 1;
   padding: 0 10%;
 }
 
@@ -119,7 +112,6 @@ border-radius:100%;
   color: #fff;
   border-radius: 5%
 }
-
 .text-brand {
 background-color: rgba(0, 0, 0, 0.7);
 color: white;
@@ -130,8 +122,8 @@ padding: 0 1%;
 
 .service .icon-box {
   background-color: black;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,14 +149,12 @@ padding: 0 1%;
 }
 
 .service .icon-box .icon-box-image {
-  height: 28px;
-  width: 28px;
+  height: 38px;
+  width: 38px;
 }
 
-.modal-image {
-  width: 75%;
-  margin-left: 75px;
-}
+/*Modal*/
+
 
 .modal-title {
   color: rgba(0, 0, 0, 0.7);
@@ -179,9 +169,9 @@ padding: 0 1%;
   margin-top: 50px;
 }
 
-.list-group{
+.col-lg-3{
 
-padding:0.7rem;
+padding-right: 0;
 }
 
 
@@ -197,7 +187,7 @@ padding:0.7rem;
   color: #fff;
   text-align: center;
 }
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
   .text-white {
     margin-top: 50%;
   }
@@ -220,7 +210,7 @@ padding:0.7rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767.98px) {
   #service {
     padding-top: 10px;
   }
