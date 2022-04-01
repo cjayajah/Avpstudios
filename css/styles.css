@@ -115,6 +115,41 @@ body {
   text-align: center;
 }
 
+.social-icons {
+  width: 350px;
+  margin: 40px auto 0 auto;
+  padding-bottom: 30px;
+  display: none;
+}
+
+.social-icons ul a {
+  color: #fff;
+  font-size: 50px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.social-icons ul li {
+  padding: 30px;
+}
+
+.social-icons ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons ul a:hover {
+  background: rgba(0, 0, 0, 0.8);
+  border-color: #fff;
+}
+
 hr {
   border-color: rgba(0, 0, 0, 0.7);
   border-width: 5px;
@@ -280,7 +315,7 @@ hr {
   border: 2px solid #fff;
 }
 
-.contact-middle div span {
+.ctn div span {
   display: block;
 }
 
@@ -288,9 +323,9 @@ hr {
   font-size: 30px;
 }
 
-.contact-middle div span:nth-child(2) {
+.add-1 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .contact-middle div p {
@@ -394,6 +429,7 @@ hr {
   border: none;
   transition: all 0.5s ease;
   cursor: pointer;
+  color: #000
 }
 
 .subs button:hover {
@@ -453,6 +489,12 @@ hr {
 }
 
 @media (max-width: 991.98px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 2.5rem;
+  }
+.navbar-dark .navbar-brand{
+  padding-right: 230px;
+}
   .text-white {
     margin-top: 0;
   }
@@ -486,36 +528,54 @@ hr {
     padding-left: 10px;
   }
 
-  @media (max-width: 767.98px) {
-    #service {
-      padding-top: 10px;
-    }
+  .add-1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
-    .icon {
-      padding-right: 15px;
-    }
+  .service-head {
+    font-size: 4rem;
+  }
 
-    .text-white {
-      margin-top: 0;
-    }
+  .social-icons {
+    display: contents;
+  }
 
-    .mobs {
-      display: none;
-    }
+  li.nav-item {
+    display: none;
+  }
+}
 
-    .service-container {
-      padding: 0 15%;
-    }
+@media (max-width: 767.98px) {
+  #service {
+    padding-top: 10px;
+  }
 
-    .koko a:hover::after {
-      width: 0;
-    }
+  .icon {
+    padding-right: 15px;
+  }
 
-    .icon {
-      padding-left: 25px;
-    }
+  .text-white {
+    margin-top: 0;
+  }
+
+  .mobs {
+    display: none;
+  }
+
+  .service-container {
+    padding: 0 15%;
+  }
+
+  .koko a:hover::after {
+    width: 0;
+  }
+
+  .icon {
+    padding-left: 25px;
   }
 
   .navbar-brand {
     font-size: 4rem;
   }
+}
