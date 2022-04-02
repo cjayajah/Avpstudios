@@ -111,8 +111,10 @@ body {
 }
 
 .btn-book h4 {
-  padding: 12px;
+  padding: 10px;
   text-align: center;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .social-icons {
@@ -203,7 +205,7 @@ hr {
 }
 
 .intro-service p {
-  max-width: 500px;
+  font-size: 1.5rem;
 }
 
 .service {
@@ -353,17 +355,18 @@ hr {
 
 .btn-contact {
   display: block;
-  width: 150px;
+  width: 200px;
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   background: transparent;
-  font-size: 15px;
+  font-size: 20px;
   padding: 12px;
   border: 2px solid rgba(0, 0, 0, 0.8);
   border-radius: 25px;
   margin: 15px 0;
   transition: all 0.5s ease;
+  font-weight: 900;
 }
 
 .btn-contact:hover {
@@ -492,9 +495,11 @@ hr {
   .navbar-dark .navbar-nav .nav-link {
     font-size: 2.5rem;
   }
-.navbar-dark .navbar-brand{
-  padding-right: 230px;
-}
+
+  .navbar-dark .navbar-brand {
+    padding-right: 230px;
+  }
+
   .text-white {
     margin-top: 0;
   }
@@ -534,7 +539,7 @@ hr {
   }
 
   .service-head {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .social-icons {
@@ -544,43 +549,45 @@ hr {
   li.nav-item {
     display: none;
   }
+
   .form input[type="text"], .form input[type="email"], .form textarea {
     font-size: 30px;
   }
+
   .contact-middle div p {
     font-size: 2rem;
-}
-
-@media (max-width: 767.98px) {
-  #service {
-    padding-top: 10px;
   }
 
-  .icon {
-    padding-right: 15px;
-  }
+  @media (max-width: 767.98px) {
+    #service {
+      padding-top: 10px;
+    }
 
-  .text-white {
-    margin-top: 0;
-  }
+    .icon {
+      padding-right: 15px;
+    }
 
-  .mobs {
-    display: none;
-  }
+    .text-white {
+      margin-top: 0;
+    }
 
-  .service-container {
-    padding: 0 15%;
-  }
+    .mobs {
+      display: none;
+    }
 
-  .koko a:hover::after {
-    width: 0;
-  }
+    .service-container {
+      padding: 0 15%;
+    }
 
-  .icon {
-    padding-left: 25px;
-  }
+    .koko a:hover::after {
+      width: 0;
+    }
 
-  .navbar-brand {
-    font-size: 4rem;
+    .icon {
+      padding-left: 25px;
+    }
+
+    .navbar-brand {
+      font-size: 4rem;
+    }
   }
-}
