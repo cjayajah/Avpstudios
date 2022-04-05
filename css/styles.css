@@ -685,6 +685,9 @@ hr {
   .btn-price{
     font-size: 3rem;
   }
+  .amt{
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 767.98px) {
