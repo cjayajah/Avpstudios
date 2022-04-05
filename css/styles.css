@@ -400,13 +400,6 @@ hr {
   color: rgba(0, 0, 0, 0.8);
   background-color: #fff;
 }
-
-@media screen and (max-width: 990px) {
-  .pricingTable {
-    margin-bottom: 25px;
-  }
-}
-
 /*Contact*/
 #contact {
   padding-top: 50px;
@@ -682,6 +675,15 @@ hr {
 
   .intro-service p {
     font-size: 1.5rem;
+  }
+  .pricingTable {
+    margin-bottom: 25px;
+  }
+  .heading{
+    font-size: 3rem;
+  }
+  .btn-price{
+    font-size: 3rem;
   }
 }
 
