@@ -29,16 +29,15 @@
       <div class="contact-form">
         <form action="mailto:cjajah4u@gmail.com" method="post" enctype="text/plain">
           <div class="form-group">
-
-            <label class="control-label col-sm-2" for="fname">Full Name:</label>
+            <label class="control-label col-sm-2" for="fname">First Name:</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="fname" placeholder="Enter Full Name" name="fname">
+              <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="First-name">
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="lname">Last Name:</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+              <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="last-name">
             </div>
           </div>
           <div class="form-group">
@@ -48,9 +47,26 @@
             </div>
           </div>
           <div class="form-group">
+            <label class="control-label col-sm-2" for="phone">Phone Number:</label>
+            <div class="col-sm-10">
+              <input type="tel" class="form-control" id="phone" name="phone" placeholder="+234-123-456-7890" name="Phone-Number">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="Packages">Choose a Packages:</label>
+            <div class="col-sm-10">
+              <select class="form-control" id="Packages" name="Packages">
+                <option value="Weddings">Wedding</option>
+                <option value="Indoor">Indoor</option>
+                <option value="Outdoor">Outdoor</option>
+                <option value="Arts">Arts</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
             <label class="control-label col-sm-2" for="date">Date:</label>
             <div class="col-sm-10">
-              <input type="date" class="form-control" value="2022-01-01">
+              <input type="date" id="Date" class="form-control" value="datetime-local" name="Date">
             </div>
           </div>
           <div class="form-group">
