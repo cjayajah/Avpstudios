@@ -639,7 +639,7 @@ hr {
   }
 
   .navbar-dark .navbar-brand {
-    padding-right: 65px;
+    padding-right: 222px;
   }
 
   .text-white {
@@ -652,7 +652,7 @@ hr {
   }
 
   .container-fluid {
-    margin: 3% 3%;
+    padding: 3% 5%;
   }
 
   .tabs {
