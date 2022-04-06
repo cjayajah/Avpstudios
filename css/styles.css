@@ -2,8 +2,6 @@ body {
   position: relative;
 }
 
-
-
 #intro {
   background-image: url("background-image.jpg");
   background-position: center;
@@ -141,7 +139,7 @@ body {
 }
 
 .social-icons ul li {
-  padding: 30px 30px 90px 30px;
+  padding: 30px 30px 150px 30px;
 }
 
 .social-icons ul {
@@ -158,22 +156,21 @@ hr {
   border-color: rgba(0, 0, 0, 0.7);
   border-width: 5px;
   border-style: dotted none none;
-  width: 25% ;
+  width: 25%;
   margin: 50px auto;
   background-color: transparent;
   opacity: 0.9;
 }
 
 /*carosel*/
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
   text-indent: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  padding : 10px 5px 32px;
+  padding: 10px 5px 32px;
   color: #fff;
   font-weight: bold;
-  border-radius: 50%
+  border-radius: 25%;
 }
-
 
 .c-icon {
   padding: 1rem;
@@ -189,7 +186,6 @@ hr {
   margin: 5%;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
-
 }
 
 .card-body {
@@ -276,7 +272,9 @@ hr {
 
 /*Modal*/
 .modal-title {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .visually-hidden {
@@ -416,13 +414,14 @@ hr {
   color: rgba(0, 0, 0, 0.8);
   background-color: #fff;
 }
+
 .accordion-item:first-of-type .accordion-button {
   border-radius: 15px;
 }
-.accordion-item:last-of-type .accordion-button.collapsed{
-    border-radius: 15px;
-}
 
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 15px;
+}
 
 /*Contact*/
 #contact {
@@ -626,14 +625,13 @@ hr {
   }
 }
 
-
 @media (min-width: 992px) {
-  .container{
+  .container {
     max-width: 1140px;
   }
 }
-@media (max-width: 991.98px) {
 
+@media (max-width: 991.98px) {
   .navbar-dark .navbar-nav .nav-link {
     font-size: 2.5rem;
   }
@@ -652,7 +650,7 @@ hr {
   }
 
   .container-fluid {
-    padding: 3% 5%;
+    padding: 8% 5%;
   }
 
   .tabs {
@@ -722,6 +720,25 @@ hr {
 
   .amt {
     font-size: 3rem;
+  }
+
+  .modal-header .btn-close {
+    font-size: 3rem;
+  }
+
+  .modal-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .btn-book {
+    margin: 50px;
+  }
+
+  .btn-book h4 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 20px;
   }
 }
 
